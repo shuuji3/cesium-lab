@@ -1,0 +1,16 @@
+{
+  "name": "cesium-lab",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
+    "posttest": "npm run format"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  }
+}
